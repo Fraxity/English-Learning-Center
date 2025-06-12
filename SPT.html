@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>English Learning Center</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <style>
+    body {
+        background-color: #f5f7fa; /* Latar belakang lebih terang agar kontras */
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    header {
+        position: relative;
+        z-index: 10;
+    }
+
+    main {
+        position: relative;
+        z-index: 1;
+        padding: 20px;
+        margin-top: 80px;
+        margin: 20px auto 20px auto; /* Tambah margin atas agar tak tertutup header */
+        max-width: 1000px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+        margin-bottom: 0px;
+    }
+    h2 {
+        color: black;
+        border-bottom: 2px solid black;
+        padding-bottom: 8px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        background-color: #fdfdfd;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        padding: 12px 15px;
+        border: 1px solid #ccc;
+        text-align: left;
+    }
+
+    th {
+        background-color: #a5a5a5;
+        color: white;
+    }
+
+    .question {
+        margin-bottom: 20px;
+    }
+    .question p {
+        font-weight: 600;
+        color: #333;
+    }
+    select, input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1em;
+    }
+    button {
+        padding: 12px 24px;
+        background-color: #a5a5a5;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: #444444;
+    }
+    #result {
+        font-size: 1.1em;
+        margin-top: 15px;
+        color: #004080;
+    }
+    iframe {
+        width: 100%;
+        height: 315px;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo-group">
+          <i class="fa-solid fa-graduation-cap fa-2x"></i>
+          <div class="logo-text">
+            <h1 class="h3">English Learning Center</h1>
+            <small>Welcome to English Learning Center</small>
+          </div>
+        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html">Back</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+  <section>
+    <h2>Introduction</h2>
+    <h3>Simple Present Tense</h3>
+    <p>
+      <strong>Simple Present Tense</strong> digunakan untuk menyatakan fakta, kebiasaan sehari-hari, atau kejadian yang terjadi secara rutin. Tense ini juga digunakan untuk menyatakan kebenaran umum.
+    </p>
+    <table>
+      <tr>
+        <th>Fungsi</th>
+        <th>Contoh Kalimat</th>
+      </tr>
+      <tr>
+        <td>Menyatakan kebiasaan</td>
+        <td>She <strong>wakes up</strong> at 6 a.m. every day.</td>
+      </tr>
+      <tr>
+        <td>Menyatakan fakta umum</td>
+        <td>The sun <strong>rises</strong> in the east.</td>
+      </tr>
+      <tr>
+        <td>Memberi instruksi</td>
+        <td>You <strong>turn</strong> left after the bank.</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Formula</h2>
+    <div style="background: #f0f8ff; padding: 16px; border-radius: 12px;">
+      <p><strong>Positive:</strong> Subject + Verb 1 (+ s/es) + Object</p>
+      <p><strong>Negative:</strong> Subject + do/does not + Verb 1 + Object</p>
+      <p><strong>Interrogative:</strong> Do/Does + Subject + Verb 1 + Object?</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Examples</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 20px;">
+
+      <div style="background: #eaf3ff; padding: 16px; border-radius: 12px;">
+        <i class="fas fa-check-circle" style="font-size: 24px; color: #004080;"></i>
+        <h4 style="margin: 10px 0 5px;">Positive</h4>
+        <p style="margin: 0;">He <strong>plays</strong> football on Sundays.</p>
+      </div>
+
+      <div style="background: #fff1f1; padding: 16px; border-radius: 12px;">
+        <i class="fas fa-times-circle" style="font-size: 24px; color: #d6336c;"></i>
+        <h4 style="margin: 10px 0 5px;">Negative</h4>
+        <p style="margin: 0;">She <strong>does not eat</strong> meat.</p>
+      </div>
+
+      <div style="background: #e8fff5; padding: 16px; border-radius: 12px;">
+        <i class="fas fa-question-circle" style="font-size: 24px; color: #20c997;"></i>
+        <h4 style="margin: 10px 0 5px;">Interrogative</h4>
+        <p style="margin: 0;">Do you <strong>like</strong> ice cream?</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Watch the Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uaEYdED_j0c?si=Yz5mPzsWGflsnA3d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+
+  <section>
+    <h2>Practice Questions</h2>
+    <div class="question">
+      <p>1. Choose the correct sentence:</p>
+      <select id="q1">
+        <option value="">--Choose an answer--</option>
+        <option value="a">He go to school every day.</option>
+        <option value="b">He goes to school every day.</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <p>2. Change into negative: "She likes pizza."</p>
+      <input type="text" id="q2" placeholder="Your answer here">
+    </div>
+
+    <button onclick="checkAnswers()">Submit</button>
+    <p id="result"></p>
+  </section>
+</main>
+
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-row">
+          <div class="footer-col">
+            <h3>English Learning Center</h3>
+            <p>
+              English Learning Center adalah sebuah website pembelajaran bahasa
+              Inggris yang dirancang untuk membantu pengguna meningkatkan
+              kemampuan berbahasa Inggris mereka.
+            </p>
+          </div>
+          <div class="footer-col footer-link">
+            <h3>Links</h3>
+            <a href="#kontak">Contact</a>
+            <a href="#about">About</a>
+          </div>
+          <div class="footer-col footer-link">
+            <h3>Social Media</h3>
+            <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          </div>
+        </div>
+        <hr />
+        <p class="text-center">&copy; English Learning Center 2025</p>
+      </div>
+    </footer>
+    <button id="backToTop" title="Kembali ke atas"><i class="fas fa-arrow-up"></i></button>
+
+    <script>
+
+    // check for answers
+    function checkAnswers() {
+        const q1 = document.getElementById('q1').value;
+        const q2 = document.getElementById('q2').value.trim().toLowerCase();
+
+        let score = 0;
+
+        if (q1 === 'b') score++;
+        if (q2 === "she does not like pizza" || q2 === "she doesn't like pizza" || q2 === "she doesnt like pizza") score++;
+
+        const resultText = document.getElementById('result');
+        resultText.textContent = `You got ${score}/2 correct.`;
+        resultText.style.fontWeight = 'bold';
+    }
+
+
+    //back to top button
+    const backToTopBtn = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        backToTopBtn.style.display = "block";
+    } else {
+        backToTopBtn.style.display = "none";
+    }
+    });
+
+    backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+    });
+    </script>
+  </body>
+</html>
